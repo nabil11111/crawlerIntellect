@@ -1,7 +1,9 @@
 require("dotenv").config({ path: "./.env" });
-const puppeteer = require("puppeteer");
+const puppeteer = require('puppeteer-extra');
+const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const { google } = require("googleapis");
 
+puppeteer.use(StealthPlugin());
 console.log("Starting movie crawler and processor...");
 
 async function authorize() {
