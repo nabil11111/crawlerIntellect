@@ -1,0 +1,17 @@
+{
+  "name": "movie-crawler",
+  "version": "1.0.0",
+  "main": "crawler-new.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "googleapis": "^144.0.0",
+    "puppeteer": "^24.1.1"
+  }
+}
